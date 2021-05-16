@@ -1,0 +1,351 @@
+@media screen and (max-width: 1100px) {
+  .menu {
+    font-size: 30px;
+  }
+  .about {
+    font-size: 30px;
+  }
+  .contact {
+    font-size: 30px;
+  }
+
+  .main_logo {
+    height: 150px;
+    width: 150px;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "set1 set2"
+      "set3 set4"
+      "set5 set6"
+      "set7 set8"
+      "set9 set10"
+      "set11 .";
+  }
+
+  :root {
+    --primary-width: 50%;
+    --primary-heigth: 60%;
+  }
+
+  .main {
+    height: 200vh;
+  }
+
+  .fb {
+    width: 75%;
+  }
+  .ig {
+    width: 75%;
+  }
+  .pyszne {
+    width: 75%;
+  }
+  .uber {
+    width: 75%;
+  }
+
+  .our_menu {
+    top: -50px;
+    font-size: 30px;
+  }
+  .grid1 {
+    font-size: 35px;
+  }
+
+  .grid2 h2,
+  .grid3 h2,
+  .grid4 h2 {
+    font-size: 40px;
+  }
+
+  .grid2 p,
+  .grid3 p,
+  .grid4 p {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main_logo {
+    height: 120px;
+    width: 120px;
+    border: 10px solid var(--secondary-color);
+  }
+  .our_menu {
+    top: -40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+  .social_media {
+    padding: 10px;
+  }
+
+  .fb {
+    width: 80%;
+  }
+  .ig {
+    width: 80%;
+  }
+  .pyszne {
+    width: 80%;
+  }
+  .uber {
+    width: 80%;
+  }
+
+  .menu {
+    top: 9%;
+    font-size: 25px;
+  }
+  .about {
+    top: 9%;
+    font-size: 25px;
+  }
+  .contact {
+    top: 9%;
+    font-size: 25px;
+  }
+  .contact_info {
+    font-size: 15px;
+  }
+
+  .grid1 {
+    font-size: 35px;
+  }
+  .grid2 h2,
+  .grid3 h2,
+  .grid4 h2 {
+    font-size: 30px;
+  }
+
+  .grid2 p,
+  .grid3 p,
+  .grid4 p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .grid-container {
+    grid-template-rows: 220px 220px 220px 220px 220px 220px;
+    gap: 30px 0px;
+  }
+
+  .top {
+    height: 17vh;
+  }
+
+  .main {
+    height: 170vh;
+  }
+
+  .main_logo {
+    height: 80px;
+    width: 80px;
+    border: 5px solid var(--secondary-color);
+  }
+
+  .menu {
+    top: 7%;
+    font-size: 20px;
+  }
+  .about {
+    top: 7%;
+    font-size: 20px;
+  }
+  .contact {
+    top: 7%;
+    font-size: 20px;
+  }
+  .our_menu {
+    top: -30px;
+    margin-bottom: 40px;
+    font-size: 25px;
+  }
+
+  :root {
+    --primary-width: 50%;
+    --primary-heigth: 50%;
+  }
+
+  .social_media {
+    margin-top: 15px;
+  }
+
+  .fb {
+    width: 70%;
+  }
+  .ig {
+    width: 70%;
+  }
+  .pyszne {
+    width: 70%;
+  }
+  .uber {
+    width: 70%;
+  }
+  .grid1 {
+    font-size: 30px;
+  }
+
+  .grid2 h2,
+  .grid3 h2,
+  .grid4 h2 {
+    font-size: 25px;
+  }
+
+  .grid2 p,
+  .grid3 p,
+  .grid4 p {
+    font-size: 15px;
+  }
+
+  .fa-utensils {
+    margin-left: 20px;
+  }
+
+  .fa-seedling {
+    margin-left: 20px;
+  }
+
+  .fa-heart {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .top {
+    height: 15vh;
+  }
+
+  .main {
+    height: 130vh;
+  }
+
+  .grid-container {
+    grid-template-rows: 150px 150px 150px 150px 150px 150px;
+  }
+
+  .main_logo {
+    height: 55px;
+    width: 55px;
+    border: 2px solid var(--secondary-color);
+  }
+
+  .menu {
+    top: 6%;
+    left: 12%;
+    font-size: 17px;
+  }
+  .about {
+    top: 6%;
+    left: 25%;
+    font-size: 17px;
+  }
+  .contact {
+    top: 6%;
+    left: 62%;
+    font-size: 17px;
+  }
+
+  :root {
+    --primary-width: 48%;
+    --primary-heigth: 50%;
+  }
+
+  .our_menu {
+    top: -20px;
+    font-size: 20px;
+  }
+
+  .grid-container {
+    margin-top: 0px;
+    padding: -50px;
+    margin-bottom: 100px;
+  }
+
+  .contact_info {
+    font-size: 10px;
+  }
+  .fb {
+    width: 80%;
+  }
+  .ig {
+    width: 80%;
+  }
+  .pyszne {
+    width: 80%;
+  }
+  .uber {
+    width: 80%;
+  }
+
+  .grid2 h2,
+  .grid3 h2,
+  .grid4 h2 {
+    font-size: 25px;
+  }
+
+  .grid2 p,
+  .grid3 p,
+  .grid4 p {
+    font-size: 15px;
+  }
+
+  .fa-utensils {
+    margin-left: 10px;
+  }
+
+  .fa-seedling {
+    margin-left: 10px;
+  }
+
+  .fa-heart {
+    margin-left: 10px;
+  }
+}
+
+/* height */
+
+@media screen and (max-height: 600px) {
+  .top {
+    height: 45vh;
+  }
+  .main {
+    height: 450vh;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .top {
+    height: 45vh;
+  }
+  .main {
+    height: 450vh;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  .top {
+    height: 50vh;
+  }
+
+  .main {
+    height: 450vh;
+  }
+}
+
+@media screen and (max-height: 350px) {
+  .top {
+    height: 55vh;
+  }
+
+  .main {
+    height: 450vh;
+  }
+}

@@ -1,0 +1,329 @@
+.grid-container {
+  margin-top: -40px;
+  margin-left: 10px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 40px 40px;
+  grid-template-areas:
+    "set1 set2 set3 set4"
+    "set5 set6 set7 set8"
+    "set9 set10 set11 .";
+}
+
+:root {
+  --primary-width: 70%;
+  --primary-heigth: 80%;
+}
+
+.our_menu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -100px;
+  color: white;
+  font-size: 40px;
+  font-family: "Major Mono Display", monospace;
+}
+
+.set1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: set1;
+  color: white;
+  font-family: "Nova Square", cursive;
+}
+.rin {
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 0 20px #768fb5;
+  margin-top: 20px;
+  height: var(--primary-heigth);
+  width: var(--primary-width);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.rin:hover {
+  transform: scale(1.2);
+}
+
+.set2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: set2;
+  color: white;
+  font-family: "Nova Square", cursive;
+}
+.bonsai {
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 0 20px #768fb5;
+  margin-top: 20px;
+  height: var(--primary-heigth);
+  width: var(--primary-width);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.bonsai:hover {
+  transform: scale(1.2);
+}
+
+.set3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: set3;
+  color: white;
+  font-family: "Nova Square", cursive;
+}
+
+.monstera {
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 0 20px #768fb5;
+  margin-top: 20px;
+  width: var(--primary-width);
+  height: var(--primary-heigth);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.monstera:hover {
+  transform: scale(1.2);
+}
+
+.set4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: set4;
+  color: white;
+  font-family: "Nova Square", cursive;
+}
+
+.ficus {
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 0 20px #768fb5;
+  margin-top: 20px;
+  width: var(--primary-width);
+  height: var(--primary-heigth);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.ficus:hover {
+  transform: scale(1.2);
+}
+
+.set5 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: set5;
+  color: white;
+  font-family: "Nova Square", cursive;
+}
+.magnolia {
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 0 20px #768fb5;
+  margin-top: 20px;
+  width: var(--primary-width);
+  height: var(--primary-heigth);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.magnolia:hover {
+  transform: scale(1.2);
+}
+
+.set6 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: set6;
+  color: white;
+  font-family: "Nova Square", cursive;
+}
+.lotos {
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 0 20px #768fb5;
+  margin-top: 20px;
+  width: var(--primary-width);
+  height: var(--primary-heigth);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.lotos:hover {
+  transform: scale(1.2);
+}
+
+.set7 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: set7;
+  color: white;
+  font-family: "Nova Square", cursive;
+}
+.eukaliptus {
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 0 20px #768fb5;
+  margin-top: 20px;
+  width: var(--primary-width);
+  height: var(--primary-heigth);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.eukaliptus:hover {
+  transform: scale(1.2);
+}
+
+.set8 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: set8;
+  color: white;
+  font-family: "Nova Square", cursive;
+}
+.hibiskus {
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 0 20px #768fb5;
+  margin-top: 20px;
+  width: var(--primary-width);
+  height: var(--primary-heigth);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.hibiskus:hover {
+  transform: scale(1.2);
+}
+
+.set9 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: set9;
+  color: white;
+  font-family: "Nova Square", cursive;
+}
+.aloes {
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 0 20px #768fb5;
+  margin-top: 20px;
+  width: var(--primary-width);
+  height: var(--primary-heigth);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.aloes:hover {
+  transform: scale(1.2);
+}
+
+.set10 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: set10;
+  color: white;
+  font-family: "Nova Square", cursive;
+}
+.orchidea {
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 0 20px #768fb5;
+  margin-top: 20px;
+  width: var(--primary-width);
+  height: var(--primary-heigth);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.orchidea:hover {
+  transform: scale(1.2);
+}
+
+.set11 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: set11;
+  color: white;
+  font-family: "Nova Square", cursive;
+}
+.jasmin {
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 0 20px #768fb5;
+  margin-top: 20px;
+  width: var(--primary-width);
+  height: var(--primary-heigth);
+  border-radius: 60%;
+  transition: all 0.3s;
+}
+
+.jasmin:hover {
+  transform: scale(1.2);
+}
+
+.bottom-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "grid1"
+    "grid2"
+    "grid3"
+    "grid4";
+  color: white;
+  text-align: center;
+}
+
+.grid1 {
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: "Major Mono Display", monospace;
+}
+
+.grid2 h2,
+.grid3 h2,
+.grid4 h2 {
+  padding: 15px;
+  font-family: "Oswald", sans-serif;
+  font-size: 45px;
+}
+
+.fa-utensils {
+  margin-left: 30px;
+  color: gold;
+}
+
+.fa-seedling {
+  margin-left: 30px;
+  color: limegreen;
+}
+
+.fa-heart {
+  margin-left: 30px;
+  color: red;
+}
+
+.grid2 p,
+.grid3 p,
+.grid4 p {
+  font-size: 25px;
+}
